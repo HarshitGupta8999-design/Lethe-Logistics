@@ -1,13 +1,12 @@
 # Lethe-Logistics
 
-# 🏥 PharmaChain: Advanced SCM & Reverse Logistics
 **Organization:** Lethe Logistics  
 **Project Scope:** MCA Semester Project - Database Management Systems  
 **Tech Stack:** Supabase (PostgreSQL), GitHub, Python, DBeaver  
 
 ---
 
-## 📌 Project Overview
+## Overview
 Lethe-Logistics is a relational database designed to manage the lifecycle of pharmaceutical products. While most systems focus on sales, this project addresses the one of the hardest parts that is implementation of **Reverse Logistics**—the specialized process of tracking expired or recalled medications throughout the entire process.
 
 ### Core Features to achieve
@@ -18,7 +17,7 @@ To satisfy the complexity requirement, we have moved beyond simple CRUD operatio
 
 ---
 
-## 🏗️ Database Blueprint (18 Tables)
+## Database Blueprint (18 Tables)
 The system has five logical modules:
 
 1.  **Master Data:** `Roles`, `Users`, `Suppliers`, `Manufacturers`, `Retailers`.
@@ -29,7 +28,7 @@ The system has five logical modules:
 
 ---
 
-## 👥 Rules
+## Rules
 All schema changes must be versioned and pushed via GitHub before being applied to the shared Supabase instance.
 
 ### Role Assignments
@@ -38,7 +37,7 @@ Not decided yet.
 
 ---
 
-## 🛠️ Instructions for Team Members
+## Instructions for Team Members
 
 ### 1. Repository Setup
 Ensure your SSH keys are configured for GitHub.
