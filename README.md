@@ -49,6 +49,8 @@ Shivam Kumar
 
 
 Shiwangi Priya
+
+Vanshita Mandloi
 ## Instructions for Team Members
 
 ### 1. Repository Setup
