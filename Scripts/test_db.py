@@ -1,9 +1,17 @@
-import sys, io
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+import os
+from dotenv import load_dotenv
 from supabase import create_client
 
-URL = "https://pvfbxhorkihgmldzlfkv.supabase.co"
-KEY = "sb_publishable_Qpa2po0RC3uofGsQsVlVjA_KnUZYhwU"
+load_dotenv()
+
+URL = os.getenv("SUPABASE_URL")
+KEY = os.getenv("SUPABASE_KEY")
+
+if not URL or not KEY:
+    raise ValueError(
+        "SUPABASE_URL and SUPABASE_KEY must be set in .env"
+    )
+
 client = create_client(URL, KEY)
 
 # Check adminsys org_id
